@@ -1,5 +1,6 @@
 @use "hero";
 @use "infos";
+@use "event";
 @use "./components/button";
 
 * {
@@ -7,7 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  color: #cecece;
+  color: #fff;
   list-style: none;
 }
 

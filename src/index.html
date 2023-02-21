@@ -9,35 +9,62 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="./styles/main.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Niver_JDC</title>
 </head>
 
 <body>
   <header class="hero">
     <div class="container">
-      <p class="hero__text">Meus 4.0</br>Esse evento tem início em:</br><span id="contador"></span></p>
-    </div>
-    <div class="container infos-bar">
-      <ul class="infos-bar__infos">
-        <li class="infos-bar__infos__item">
-          <b>Localização</b>
-          Beach Park - Fortaleza - Ceará
-        </li>
-        <li class="infos-bar__infos__item">
-          <b>Preço</b>
-          A partir de R$ 120,00
-        </li>
-        <li class="infos-bar__infos__item">
-          <b>Quando</b>
-          28/05/2026 às 9hrs
-        </li>
-      </ul>
-      <a href="https://beachpark.com.br/" class="button button--primary">Garanta sua vaga</a>
+      <p class="hero__text">Meus 4.0 </br> Esse evento inicia em: <span id="contador"></span></p>
+      <div class="infos-bar">
+        <ul class="infos-bar__infos">
+          <li class="infos-bar__infos__item">
+            <b>Localização</b>
+            Beach Park - Fortaleza - Ceará
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Preço</b>
+            A partir de R$ 120,00
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Quando</b>
+            28/05/2026 às 9hrs
+          </li>
+        </ul>
+        <a href="" class="button button--primary">Garanta sua vaga</a>
+      </div>
     </div>
   </header>
-
+  <section class="event event--resenha">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">Resenha na Piscina</h2>
+        <p class="event__details_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel veniam quo, eaque dicta ducimus ipsum? Laboriosam sint facere fugiat repellat incidunt minus ipsa perferendis, exercitationem cum atque minima quod rem!</p>
+      </div>
+      <img src="./img/friends_water.jpg" alt="resenha na piscina" class="event__image">
+    </div>
+  </section>
+  <section class="event event--tardezinha event--image-left">
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Tardezinha na Praia </h2>
+        <p class="event__details_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel veniam quo, eaque dicta ducimus ipsum? Laboriosam sint facere fugiat repellat incidunt minus ipsa perferendis, exercitationem cum atque minima quod rem!</p>
+      </div>
+      <img src="./img/play_beach.jpg" alt="futebol a tarde na praia" class="event__image">
+    </div>
+  </section>
+  <section class="event event--friend">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">Friend's Lual</h2>
+        <p class="event__details_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel veniam quo, eaque dicta ducimus ipsum? Laboriosam sint facere fugiat repellat incidunt minus ipsa perferendis, exercitationem cum atque minima quod rem!</p>
+      </div>
+      <img src="./img/talks.jpg" alt="lual" class="event__image">
+    </div>
+  </section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./scripts/main.js"></script>
 </body>
 

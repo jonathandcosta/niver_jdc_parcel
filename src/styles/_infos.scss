@@ -3,7 +3,6 @@
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  top: 250px;
 
   &__infos {
     display: flex;
@@ -15,6 +14,7 @@
 
       b {
         color: #000;
+
         font-size: 18px;
         display: block;
       }
@@ -23,7 +23,6 @@
 
   @media (max-width: 640px) {
     display: block;
-    top: 320px;
 
     &__infos {
       display: block;
@@ -36,7 +35,6 @@
   @media (max-width: 1024px) {
     &__infos {
       gap: 16px;
-      margin-bottom: 100px;
     }
   }
 }
